@@ -27,7 +27,7 @@ jobs:
           node-version: 18
 
       - name: Check cache
-        uses: actions/cache@e12d46a63a90f2fae62d114769bbf2a179198b5c # v3
+        uses: actions/cache@d4323d4df104b026a6aa633fdb11d772146be0bf # v3
         id: npm-cache
         with:
           path: '**/node_modules'
